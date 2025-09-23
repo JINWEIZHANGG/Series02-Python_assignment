@@ -1,20 +1,14 @@
-# A minimal template for data analysis with python 
+# Sinusoid Wave Generator for Python 
 
-This is a minimal template for data analysis with python, intended to researchers in human movement sciences that are new to python.   
-Cloning this template for each new data analysis problem should facilitate data analyses with python and minimize potential errors.   
+This script creates sinusoidal waves based on user-defined parameters (e.g., frequency, amplitude, phase). It includes functions for wave generation and visualization, making it easy to experiment with different sinusoid configurations.
 
-## Usage
-1. Download as a zip file (green button `< > Code` on the top right of the page)
-1. Expand the archive on your computer (e.g., in your `Download` folder). 
-1. Rename the extracted folder with the name of your new project (e.g., `ECG_analysis`)
-1. Move the new `ECG_analysis` folder where it should be located (e.g., in your `Documents/CodeProjects/` directory)
-1. In VSCode :
-    1. open the new project in a new window. 
-    1. open `main.ipynb` and click `Run all`
+Adjust frequency to change the number of cycles per second.
+Modify amplitude to make the wave taller or shorter.
+Use phase to shift the wave horizontally (unit: radians).
+Change duration to adjust the time length of the wave.
+Adjust sampling_rate to modify resolution (higher values result in smoother waves).
+Use displacement to move the entire wave up or down.
+The shift parameter can be used to add an additional horizontal offset (unit: seconds).
 
-## Requirements
-- [A minimal Python environment for reproducible research in human movement sciences](https://github.com/DenisMot/Python-minimal-install) is my preferred solution.
-- Any IDE supporting python and jupyter notebooks is an alternative solution. 
+# By modifying these parameters, you can create a wide range of sinusoidal wave patterns for applications like signal processing, acoustics, or education.
 
-read me
-test
