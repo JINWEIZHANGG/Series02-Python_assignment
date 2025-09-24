@@ -12,3 +12,4 @@ The shift parameter can be used to add an additional horizontal offset (unit: se
 
 # By modifying these parameters, you can create a wide range of sinusoidal wave patterns for applications like signal processing, acoustics, or education.
 
+
